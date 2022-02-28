@@ -23,11 +23,11 @@ class HomePage extends Component {
   }
 }
 
-const mapDispatchToProps = {
+export const mapDispatchToProps = {
   convertCurrency: convertCurrency,
 };
 
-const mapStateToProps = (state) => ({
+export const mapStateToProps = (state) => ({
   exchangeData: state.exchangeData,
   convert:state.convert
 });
